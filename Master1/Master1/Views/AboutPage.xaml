@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Master1.Views.AboutPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Margin="20">
+            <Image x:Name="profileImage"></Image>
+            <Label Text="About me" FontSize="20" TextColor="LightSkyBlue" HorizontalTextAlignment="Center"></Label>
+            <Label Text="Простой чувак, который делает сейчас программирование и часть не понимает, также он сильно спешит по своим делам, а от ученика (то есть меня) просят написать текст побольше, чтобы казалось, что я понимаю тему, хотя данную тему я понял, но некоторые команды я вполне не понимаю :)" TextColor="Black" HorizontalTextAlignment="Center"></Label>
+            <Image Source="aboutemep.png"></Image>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

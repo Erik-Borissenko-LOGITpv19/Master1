@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Master1.Views.AchievemnetsPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Margin="20">
+            <Image x:Name="profileImage"></Image>
+            <Label Text="My Achivments" FontSize="20" TextColor="LightSkyBlue" HorizontalTextAlignment="Center"></Label>
+            <Label Text="Простой чувак, у которого стоит задача отучиться на инфо-технолога и получить профессию по своей специальности :)" TextColor="Black" HorizontalTextAlignment="Center"></Label>
+            <Image Source="Trophy11.png"></Image>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

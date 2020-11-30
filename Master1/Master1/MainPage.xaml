@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Master1.MainPage" Title="Master Detail Page">
+
+    <MasterDetailPage.Master>
+        <ContentPage Title="Master Detail Page" Padding="10" BackgroundColor="LightCyan">
+            <ContentPage.Content>
+                <StackLayout Margin="10" Orientation="Vertical">
+                    <Image x:Name="profileimage">
+                    </Image>
+                    <ListView x:Name="aboutlist" ItemSelected="aboutlist_ItemSelected">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ImageCell Text="{Binding Text}" Detail="{Binding Deatil}" ImageSource="{Binding ImagePath}">
+                                    
+                                </ImageCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                    
+                    <Label Text="Master Page Elemented">
+                    </Label>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <ContentPage Title="Content" Padding="15">
+            <ContentPage.Content>
+                <StackLayout Margin="10">
+                    <Label Text="Content Page Elemented"></Label>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

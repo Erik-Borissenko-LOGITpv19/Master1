@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Master1.Views.ExperiencePage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Margin="20">
+            <Image x:Name="profileImage"></Image>
+            <Label Text="My experience" FontSize="20" TextColor="LightSkyBlue" HorizontalTextAlignment="Center"></Label>
+            <Label Text="Простой чувак, который делает сейчас программирование и иногда бывает я делюсь своим опытом со своим папой :)" TextColor="Black" HorizontalTextAlignment="Center"></Label>
+            <Image Source="experienceimage.jpeg"></Image>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

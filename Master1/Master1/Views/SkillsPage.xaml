@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Master1.Views.SkillsPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Margin="20">
+            <Image x:Name="profileImage"></Image>
+            <Label Text="My Skills" FontSize="20" TextColor="LightSkyBlue" HorizontalTextAlignment="Center"></Label>
+            <Label Text="Мои навыки программрования уже довольно неплохи, да, они далеко не идеальны, но я бы хотел похвастаться вам своими работами :). Сейчас я пишу программу, которая называется как MasterDetailPage, также я писал работу про светофор, снеговик, да и много других интересных работ, которые очень сильно мне интересны :)" TextColor="Black" HorizontalTextAlignment="Center"></Label>
+            <Image Source="Skills.jpg"></Image>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
